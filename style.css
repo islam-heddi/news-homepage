@@ -1,0 +1,160 @@
+*{
+    font-size: 17px;
+}
+
+nav{
+    word-spacing: 12px;
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.main-news{
+    display: inline-block;
+}
+
+.main-news img{
+    width: 700px;
+    height: auto;
+}
+
+.bright{
+    display: flex;
+    flex-direction: row;
+}
+
+.bright h1{
+    max-width: 100px;
+}
+
+
+.bright p{
+    max-width: 500px;
+}
+
+.item-brights{
+    display: flex;
+    flex-direction: column;
+}
+
+.read-btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    width: 210px;
+    padding: 12px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.read-btn:hover{
+    background-color: black;
+}
+
+.news-menu h1{
+    font-size: 28px;
+    color: hsl(35, 77%, 62%);
+}
+
+.news-menu h4{
+    cursor: pointer;
+}
+
+.news-menu h4:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+
+.news-menu{
+    background-color: black;
+    display: inline-flex;
+    color: white;
+    max-width: 400px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.summary{
+    gap: 18px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item img{
+    width: auto;
+    height: 150px;
+}
+
+.item h1{
+    font-size: 40px;
+    margin: 0;
+    color: hsl(236, 13%, 42%);
+}
+
+.item p{
+    margin: 5px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    gap:  10px;
+}
+
+.s-item{
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+main{
+    position: absolute;
+    left: 20%;
+}
+
+.news-menu h4{
+    margin-bottom: 0;
+}
+
+.news-menu p{ 
+    color: hsl(233, 8%, 79%);
+}
+
+p{
+   color: hsl(236, 13%, 42%);
+}
+
+.topic{
+    cursor: pointer;
+    color: black;
+}
+
+.topic:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.mobile-picture{
+    display: none;
+}
